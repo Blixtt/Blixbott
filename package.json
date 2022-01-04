@@ -1,15 +1,20 @@
 {
-  "name": "discordbot",
+  "name": "blixbott",
   "version": "1.0.0",
-  "description": "first attempt at a discord bot",
+  "description": "Multi purpose bot",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "devStart": "nodemon main.js"
   },
-  "author": "Harry",
+  "keywords": [],
+  "author": "Blixtt",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0"
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
